@@ -1,0 +1,15 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid red;
+}
+.list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.list-item {
+  background-color: var(--primary-background);
+  color: var(--primary-color);
+}
