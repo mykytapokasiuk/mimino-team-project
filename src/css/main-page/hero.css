@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 103px;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Film P3';
+    src: url(../fonts/FontsFree-Net-FilmP3Wide.ttf) format('truetype');
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 414px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .container {
+        background-color: aliceblue;
+    }
+
+}
