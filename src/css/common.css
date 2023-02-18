@@ -19,11 +19,16 @@
   src: url('./../../assets/fonts/Montserrat-Bold.ttf');
 }
 @font-face {
-  font-family: 'FilmP3Bold';
+  font-family: 'Film P3 Bold';
   font-weight: 700;
   src: url('./../../assets/fonts/FilmP3Bold.ttf');
 }
+@font-face {
+  font-family: 'Film P3';
+  font-weight: 400;
+  src: url('./../../assets/fonts/FilmP3.ttf');
+}
 
 body {
-  font-family: 'Montserrat', 'FilmP3Bold', 'sans-serif';
+  font-family: 'Montserrat', 'Film P3', 'Film P3 Bold', 'sans-serif';
 }
