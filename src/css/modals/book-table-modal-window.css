@@ -1,23 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
-  ul,
-  ol {
-    margin: 0;
-    padding-left: 0;
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
   }
   
   .visually-hidden{
@@ -32,16 +19,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    opacity: 1;
-    visibility: visible;
-  }
-  
+
   .modal-table {
     position: absolute;
     top: 50%;
