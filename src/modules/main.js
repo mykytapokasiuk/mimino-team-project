@@ -11,4 +11,10 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
+
+  window.onclick = function (e) {
+    if (e.target == refs.modal) {
+      toggleModal();
+    }
+  };
 })();

@@ -1,16 +1,29 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+@font-face {
+  font-family: 'Montserrat';
   font-weight: 400;
-  --primary-background: #4d5ae5;
-  --primary-color: red;
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  src: url('./../../assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url('./../../assets/fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url('./../../assets/fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('./../../assets/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'FilmP3Bold';
+  font-weight: 700;
+  src: url('./../../assets/fonts/FilmP3Bold.ttf');
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body {
+  font-family: 'Montserrat', 'FilmP3Bold', 'sans-serif';
 }
