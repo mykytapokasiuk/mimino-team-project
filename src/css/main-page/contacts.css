@@ -1,0 +1,307 @@
+
+    /*============================MOBILE-CONTACTS===========================*/
+
+    @media screen and (max-width:1024px) {
+        .container {
+            max-width: 414px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    /*============================MOBILE-CONTACTS-STYLE===========================*/
+    .contacts-box-contacts {
+        background: #ffeef4;
+    }
+    
+    .contacts-logo {
+        font-family: 'Film P3';
+        font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43/40);
+    letter-spacing: 0.3em;
+    color: #494848;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 5px;
+    }
+    
+    .contacts-name {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    text-align: left;
+    margin-bottom: 24px;
+    }
+    
+    .contacts-link {
+        padding-right: 22px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: #C79002;
+    }
+    .contacts-social-list-link {
+        fill: #C79002;
+    }
+    .contacts-phone {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(17/14);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #494848;
+    }
+    
+    .contacts-maps-size {
+        display: block;
+    }
+    
+    .contacts-addres {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.01em;
+    color: #494848;
+    }
+    
+    /*============================MOBILE-CONTACTS-POZITION===========================*/
+    
+    .contacts-maps-box {
+        width: 384px;
+        height: 220px;
+        background: url(.png);
+        border: 1px solid #BABABA;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin-top: 32px;
+        }
+        .map-hotel-tablet {
+            display: none;
+        }
+        .map-hotel-pc {
+            display: none;
+        }
+    .map-hotel-mobil {
+        display: block;
+    }
+    
+    
+    }
+    
+    
+    /*============================TABLET===========================*/
+    
+    @media screen and (min-width:1024px) {
+    
+        .container {
+            max-width: 1024px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    /*============================TABLET-CONTACTS-STYLE===========================*/
+    .contacts-box-contacts {
+        background: #ffeef4;
+    }
+    
+    .contacts-logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: calc(69/64);
+        letter-spacing: 0.3em;
+        color: #494848;
+    }
+    
+    .contacts-name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: calc(20/16);
+        letter-spacing: 0.02em;
+        color: #7A7A7A;
+        
+    }
+    
+    .contacts-link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24/20);
+        letter-spacing: 0.02em;    
+        color: #C79002;
+    }
+    
+    .contacts-social-list-link {
+        fill: #C79002;
+    }
+    .contacts-phone {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;    
+        color: #494848;
+    }
+    
+    .contacts-maps-size {
+        display: block;
+    }
+    
+    .contacts-addres {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(20/16);
+        letter-spacing: 0.01em;    
+        color: #494848;
+    }
+    
+    /*============================TABLET-CONTACTS-POZITION===========================*/
+    
+    .contacts-maps-box {
+        width: 535px;
+        height: 412px;   
+        background: url(.png);
+        border: 1px solid #BABABA;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin: 0;
+        }
+        .map-hotel-mobil {
+            display: none;
+        }
+        .map-hotel-pc {
+            display: none;
+        }
+        .map-hotel-tablet {
+            display: block;
+        }
+    
+    
+    }
+    
+    /*============================PC===========================*/
+    
+    @media screen and (min-width:1280px) {
+    
+        .container {
+            max-width: 1024px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    /*============================PC-CONTACTS-STYLE===========================*/
+    .contacts-box-contacts {
+        background: #ffeef4;
+    }
+    
+    .contacts-logo {
+        font-family: 'Film P3';
+        font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43/40);
+    letter-spacing: 0.3em;
+    color: #494848;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 5px;
+    }
+    
+    .contacts-name {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    text-align: left;
+    margin-bottom: 24px;
+    }
+    
+    .contacts-link {
+        padding-right: 22px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: #C79002;
+    }
+    .contacts-social-list-link {
+        fill: #C79002;
+    }
+    .contacts-phone {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(17/14);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #494848;
+    }
+    
+    .contacts-maps-size {
+        display: block;
+    }
+    
+    .contacts-addres {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.01em;
+    color: #494848;
+    }
+    
+    /*============================PC-CONTACTS-POZITION===========================*/
+    
+    .contacts-maps-box {
+        width: 634px;
+        height: 412px;
+        background: url(.png);
+        border: 1px solid #BABABA;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        }
+    .map-hotel-mobil {
+        display: none;
+    }
+    .map-hotel-tablet {
+        display: none;
+    }
+    .map-hotel-pc {
+        display: block;
+    }
+    
+    
+    
+    }
