@@ -3,7 +3,9 @@
     margin: 0;
     padding: 15px 16px;
 }
-
+.header{
+    background-color: grey;
+}
 .logotype{
 text-decoration: none;
 font-family: 'FilmP3';
@@ -38,7 +40,7 @@ color: #FFFFFF;
     align-items: center;
 }
 .phone-mobile{
-    display: flexч;
+    display: flex;
 }
 .link-hotel{
     text-decoration: none;
@@ -48,25 +50,35 @@ color: #FFFFFF;
     line-height: 20px;
     letter-spacing: 0.02em;
     color: #F3C653;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .link-restaurant{
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    }
-    .tel-restaurant{
-        display: none;
-    }
-    .tel-hotel{
-        display: none;
-    }
-    .icons{
-        display: none;
-    }
+.link-hotel:hover,
+.link-hotel:focus{
+    color: #ddb44c;
+}
+.link-restaurant{
+text-decoration: none;
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #F3C653;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-restaurant:hover,
+.link-restaurant:focus{
+    color: #ddb44c;
+}
+.tel-restaurant{
+display: none;
+}
+.tel-hotel{
+display: none;
+}
+.icons{
+display: none;
+}
 @media screen and (min-width:414px){
     .container{
         width: 384px;
@@ -147,11 +159,14 @@ color: #FFFFFF;
         list-style: none;
         margin: 0;
         padding: 0;
-        fill: #f3c653;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .icons:hover{
-        fill: #FFFFFF;
+    .icon{
+        fill: #f3c653;
+    }
+    .icon-link:hover .icon,
+    .icon-link:focus .icon{
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: #fff;
     }
 }
 
