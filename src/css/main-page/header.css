@@ -160,7 +160,7 @@ color: #FFFFFF;
 
 @font-face {
     font-family: "FilmP3";
-    src: url(./fonts/FilmP3.ttf) format("truetype");
+    src: url(../../../assets/fonts/FilmP3.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
