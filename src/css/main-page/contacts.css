@@ -51,7 +51,18 @@
     }
     .contacts-social-list-link {
         fill: #C79002;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
+    .contacts-social-list-link :hover,
+.contacts-social-list-link :focus,
+.contacts-social-list-link :active {
+    border: 1px solid #605B5B;
+    background-color: #605B5B;
+}
+
+
     .contacts-phone {
         font-family: 'Montserrat';
     font-style: normal;
@@ -87,28 +98,72 @@
         border: 1px solid #BABABA;
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        margin-top: 32px;
+        margin-bottom:  32px;
         }
+
+
         .map-hotel-tablet {
             display: none;
         }
         .map-hotel-pc {
             display: none;
         }
+        
     .map-hotel-mobil {
-        display: block;
+        display: block; 
+        flex-wrap: nowrap; 
+        padding-bottom: 32px;
     }
+
+.contacts-list-polarity {
+    display: flex;
+}
+.contacts-logo {
+    padding-top: 34px;
+margin-bottom: 12px;
+flex-wrap: nowrap;
+
+}
+
+.contacts-link-restoran  {
+    margin-right: 13px;
+    margin-bottom: 32px;
+}
+.contacts-phone {
+    margin-left: 12px;
     
+}
+.contacts-phone-mobil {
+    margin-bottom: 32px;
+}
+.contacts-link-hotel {
+    display: flex;
+    margin-right: 45px;
+}
+.contacts-addres-container {
+    padding-left: 137px;
+    padding-right: 33px;
+    margin-bottom: 39px;
+    margin-top: 24px;
+}
+.contacts-addres-box {
+    margin-left: 14px;
+}
+.contacts-phone-box {
+    display: flex;
+    align-items: center;
+}
+
     
     }
     
     
     /*============================TABLET===========================*/
     
-    @media screen and (min-width:1024px) {
+    @media screen and (min-width:1014px) {
     
         .container {
-            max-width: 1024px;
+            width: 1014px;
             padding-left: 15px;
             padding-right: 15px;
             margin-left: auto;
@@ -120,7 +175,7 @@
         background: #ffeef4;
     }
     
-    .contacts-logo {
+    .contacts-logo-text {
         font-family: 'Film P3';
         font-style: normal;
         font-weight: 700;
@@ -181,25 +236,72 @@
     /*============================TABLET-CONTACTS-POZITION===========================*/
     
     .contacts-maps-box {
-        width: 535px;
-        height: 412px;   
+        /* width: 535px;
+        height: 412px;    */
+            margin-left: auto;
+            margin-right: auto;
         background: url(.png);
         border: 1px solid #BABABA;
         box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
         margin: 0;
+        margin-bottom: 40px;
         }
+
         .map-hotel-mobil {
             display: none;
         }
+
         .map-hotel-pc {
             display: none;
         }
         .map-hotel-tablet {
             display: block;
         }
+.contact-container-map {
+    display: flex;
+}
+.contact-container-map {
+    padding-top: 56px;
+    padding-left: 32px;
+}
+.contacts-logo {
+    margin-bottom: 8px;
+}
+.contacts-name {
+    margin-bottom: 52px;
+}
+.contacts-phone-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.contacts-list-polarity-pc {
+    display: flex;
     
-    
+}
+.contacts-link-restoran {
+    margin-bottom: 19px;
+}
+.contacts-link-hotel {
+    margin-bottom: 19px;
+}
+.contacts-phone {
+    margin-left: 14px;
+}
+.contacts-addres {
+    width: 233px;
+    margin-left: 14px;
+}
+.contacts-social-list-link {
+    margin-left: 14px;
+}
+.contacts-addres-container {
+    margin-top: 48px;
+}
+
+
+
     }
     
     /*============================PC===========================*/
@@ -207,7 +309,7 @@
     @media screen and (min-width:1280px) {
     
         .container {
-            max-width: 1024px;
+            width: 1280px;
             padding-left: 15px;
             padding-right: 15px;
             margin-left: auto;
@@ -298,6 +400,7 @@
     .map-hotel-tablet {
         display: none;
     }
+
     .map-hotel-pc {
         display: block;
     }
