@@ -1,21 +1,21 @@
-<section class="hotel-room section">
-  <div class="room container">
-    <span class="header">
-      <div class="hotel-room-header-right">
+<section class="hotel-room-section">
+  <div class="room-3-adult-container">
+    <span class="room-3-adult-header">
+      <div class="hotel-room-3-adult-header-right">
         <p class="mimino-motto">Amet minim mollit non</p>
-        <h1 class="hotel-header-name">MIMIHO</h1>
+        <h1 class="hotel-room-3-adult-header-name">MIMIHO</h1>
       </div>
       <div class="hotel-room-3-bed">
-        <h1 class="three-bed-room-header">ТРЬОХМІСНИЙ НОМЕР</h1>
-        <p class="three-bed-room-description">
+        <h1 class="hotel-3-bed-room-header">ТРЬОХМІСНИЙ НОМЕР</h1>
+        <p class="hotel-3-bed-room-description">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
       </div>
     </span>
-    <div class="room-photo">
-      <picture class="first-room-photo">
+    <div class="hotel-3-bed-room-photo">
+      <picture class="hotel-3-bed-first-room-photo">
         <source
           srcset="
             ./img/hotel-page/1-room-for-3-adult/studio-apartment-bedroom-mob.jpg 1x,
@@ -45,10 +45,10 @@
         />
       </picture>
     </div>
-    <div class="room-photos-slider">
-      <ul class="photos-list list">
+    <div class="hotel-3-bed-room-photos-slider">
+      <ul class="hotel-3-bed-room-photos-list list">
         <li>
-          <picture class="slider-photos">
+          <picture class="hotel-3-bed-room-slider-photo">
             <source
               srcset="
                 ./img/hotel-page/1-room-for-3-adult/sink-mob.jpg    1x,
@@ -79,7 +79,7 @@
           </picture>
         </li>
         <li>
-          <picture class="slider-photos">
+          <picture class="hotel-3-bed-room-slider-photo">
             <source
               srcset="
                 ./img/hotel-page/1-room-for-3-adult/tea-windowsill-mob.jpg    1x,
@@ -110,8 +110,8 @@
           </picture>
         </li>
       </ul>
-      <div class="arrows">
-        <ul class="arrow-list list">
+      <div class="hotel-3-bed-room-arrows">
+        <ul class="hotel-3-bed-room-arrow-list list">
           <li>
             <a href>
               <svg width="32" height="32">
@@ -134,19 +134,23 @@
       </div>
     </div>
 
-    <div class="buttons">
-      <ul class="button-list list">
+    <div class="hotel-3-bed-room-buttons">
+      <ul class="hotel-3-bed-room-button-list list">
         <li>
-          <button type="button" class="btn button-more-details">
+          <button type="button" class="btn button-more-details" data-modal-open-book-room-modal-window>
             Детальніше
           </button>
         </li>
         <li>
-          <button type="button" class="btn button-prices">
+          <button type="button" class="btn button-prices" data-modal-open-room-price-modal-window>
             Переглянути ціни
           </button>
         </li>
       </ul>
     </div>
+  </div>
+  <div class="backdrop is-hidden" data-modal-book-room-modal-window>
+  </div>
+  <div class="backdrop is-hidden" data-modal-room-price-modal-window>
   </div>
 </section>
