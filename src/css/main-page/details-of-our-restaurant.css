@@ -1,0 +1,273 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 52px;
+  }
+}
+.details-of-our-restaurant {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    -webkit-image-set(url('./img/details-of-our-restaurant/mobile/bg-mobile.webp')
+          1x, url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x);
+  background-image: image-set(
+    url('./img/details-of-our-restaurant/mobile/bg-mobile.webp') 1x,
+    url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .details-of-our-restaurant {
+    padding-top: 48px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      -webkit-image-set(url('./img/details-of-our-restaurant/tablet/bg-tablet.webp')
+            1x, url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp')
+            2x);
+    background-image: image-set(
+      url('./img/details-of-our-restaurant/tablet/bg-tablet.webp') 1x,
+      url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp') 2x
+    );
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .details-of-our-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      -webkit-image-set(url('./img/details-of-our-restaurant/desktop/bg-desktop.webp')
+            1x, url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp')
+            2x);
+    background-image: image-set(
+      url('./img/details-of-our-restaurant/desktop/bg-desktop.webp') 1x,
+      url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp') 2x
+    );
+  }
+}
+.details-logo {
+  max-width: 127px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-family: 'Film P3 Bold';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+}
+@media screen and (min-width: 1024px) {
+  .details-logo {
+    max-width: 202px;
+    margin-bottom: 16px;
+    margin-left: 231px;
+    font-size: 64px;
+    line-height: 1.07;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-logo {
+    margin-left: 253px;
+  }
+}
+.rest-title {
+  max-width: 127px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .rest-title {
+    margin-left: 231px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rest-title {
+    margin-left: 253px;
+  }
+}
+.other-text {
+  max-width: 259px;
+  margin-left: 125px;
+  margin-bottom: 48px;
+  color: #bababa;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .other-text {
+    margin-left: 231px;
+    margin-bottom: 40px;
+    max-width: 610px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .other-text {
+    margin-left: 253px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restourant-content-wrap {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restourant-slider {
+    order: 2;
+  }
+}
+.restourant-slider {
+  margin-left: 25px;
+}
+@media screen and (min-width: 1024px) {
+  .restourant-slider {
+    margin-left: 29px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .restourant-slider {
+    margin-left: 32px;
+  }
+}
+.details-img-list {
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .details-img-list {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-img-list {
+    gap: 90px;
+  }
+}
+
+.details-img-item:nth-child(2) {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .details-img-item:nth-child(2) {
+    display: block;
+  }
+}
+.details-img-item:nth-child(3) {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .details-img-item:nth-child(3) {
+    display: block;
+  }
+}
+.details-slider {
+  margin-bottom: 32px;
+  width: 98px;
+}
+@media screen and (min-width: 1024px) {
+  .details-slider {
+    margin-bottom: 0;
+  }
+}
+.details-icon {
+  fill: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  .restourant-content-wrap .restourant-btn-wrap {
+    align-self: self-end;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restourant-btn-wrap {
+    padding-bottom: 60px;
+  }
+}
+.reserve-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 236px;
+  max-height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  padding: 14px 22px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  color: #f3c653;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  transition-property: background-color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reserve-btn:hover,
+.reserve-btn:focus {
+  background-color: #ffffff;
+  border-color: #f3c653;
+}
+.view-menu-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 236px;
+  max-height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 29px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  color: #f3c653;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  transition-property: background-color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.view-menu-link:hover,
+.view-menu-link:focus {
+  background-color: #ffffff;
+  border-color: #f3c653;
+}
