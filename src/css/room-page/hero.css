@@ -1,265 +1,310 @@
 .numbers-hero {
-    height: 740px;
-    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 740px;
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 8.07%,
+      rgba(0, 0, 0, 0) 16.15%
+    ),
+    url(../img/room/room.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .room-hero-btn {
-    width: 40px;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.65);
-    border: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 40px;
+  height: 40px;
+
+  background: rgba(0, 0, 0, 0.65);
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-left {
-    position: absolute;
-    top: 350px;
-    left: 15px;
+  position: absolute;
+  top: 350px;
+  left: 15px;
 }
 
 .btn-right {
-    position: absolute;
-    top: 350px;
-    right: 15px;
+  position: absolute;
+  top: 350px;
+  right: 15px;
 }
 
 .btn-switch-icon {
-    fill: #FFFFFF;
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .room-hero-btn:hover > .btn-switch-icon,
-.room-hero-btn:focus > .btn-switch-icon {
-    fill: #F3C653;
+.room-hero-btn:focus > .btn-switch-icon,
+.room-hero-btn:active > .btn-switch-icon {
+  fill: #f3c653;
 }
 
 .room-hero-btn:hover,
 .room-hero-btn:focus {
-    cursor: pointer;
-    fill: #F3C653;
+  cursor: pointer;
 }
 
 .numbers-adress {
-    position: absolute;
-    top: 64px;
-    right: 15px;
-    display: flex;
-    gap: 13px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 11px;
-    width: 210px;
-    height: 47px;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
+  position: absolute;
+  top: 64px;
+  right: 15px;
+  display: flex;
+  gap: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 11px;
+  width: 210px;
+  height: 47px;
+
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
 }
 
 .adress-text {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: calc(15 / 12);
-    letter-spacing: 0.01em;
-    color: #E5E5E5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.01em;
+
+  color: #e5e5e5;
 }
 
 .numbers-h1 {
-    padding-top: 484px;
-    margin: 0;
-    font-family: 'Times New Roman';
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    margin-bottom: 14px;
+  padding-top: 484px;
+  margin: 0;
+  font-family: 'Times New Roman';
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 14px;
 }
 
 .numbers-hero-text {
-    max-width: 325px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: calc(15 / 12);
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+  max-width: 325px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-wrap {
-    margin-top: 17px;
-    display: flex;
-    gap: 71px;
-    align-items: center;
+  margin-top: 17px;
+  display: flex;
+  gap: 71px;
+  align-items: center;
 }
 
 .numbers-hero-socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 .social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .number-price-modal-button {
-    width: 232px;
-    height: 48px;
-    background: rgba(0, 0, 0, 0.4); 
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    line-height: calc(20 / 16);
-    letter-spacing: 0.02em;
-    color: #F3C653;
+  width: 232px;
+  height: 48px;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+
+  color: #f3c653;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-price-modal-button:hover,
-.number-price-modal-button:focus {
-    background: #FFFFFF;
-    border: 2px solid #F3C653;
-    cursor: pointer;
+.number-price-modal-button:focus,
+.number-price-modal-button:active {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+  cursor: pointer;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .numbers-hero {
-    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room-2x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../img/room/room-2x.jpg);
   }
 }
+
 @media screen and (min-width: 414px) {
+  .numbers-hero {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../img/room/room-tablet.jpg);
+    background-size: cover;
+  }
 
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room-tablet.jpg);
-        background-size: cover;
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 8.07%,
+          rgba(0, 0, 0, 0) 16.15%
+        ),
+        url(../img/room/room-tablet-2x.jpg);
     }
-
-    @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room-tablet-2x.jpg);
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .numbers-hero {
+    height: 718px;
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 8.07%,
+        rgba(0, 0, 0, 0) 16.15%
+      ),
+      url(../img/room/room-desktop.jpg);
+  }
 
+  .btn-left {
+    top: 340px;
+    left: 47px;
+  }
+
+  .btn-right {
+    top: 340px;
+    right: 47px;
+  }
+
+  .numbers-h1 {
+    margin-bottom: 24px;
+    padding-top: 468px;
+    font-size: 36px;
+    line-height: calc(41 / 36);
+    letter-spacing: 0.05em;
+  }
+
+  .numbers-hero-text {
+    max-width: 400px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+
+  .numbers-adress {
+    position: static;
+    width: 285px;
+    height: 56px;
+    gap: 16px;
+    padding-left: 16px;
+  }
+
+  .adress-text {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+
+  .numbers-hero-socials {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .numbers-social-item {
+    margin-top: 0;
+  }
+
+  .number-price-modal-button {
+    position: absolute;
+    bottom: 62px;
+    right: 47px;
+  }
+
+  .hero-wrap {
+    margin-top: 24px;
+    gap: 41px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .numbers-hero {
-        height: 718px;
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room-desktop.jpg);
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 8.07%,
+          rgba(0, 0, 0, 0) 16.15%
+        ),
+        url(../img/room/room-desktop-2x.jpg);
     }
-
-    .btn-left {
-        top: 340px;
-        left: 47px;
-    }
-
-    .btn-right {
-        top: 340px;
-        right: 47px;
-    }
-
-
-    .numbers-h1 {
-        margin-bottom: 24px;
-        padding-top: 468px;
-        font-size: 36px;
-        line-height: calc(41 / 36);
-        letter-spacing: 0.05em;
-    }
-
-    .numbers-hero-text {
-        max-width: 400px;
-        font-size: 16px;
-        line-height: calc(20 / 16);
-    }
-
-    .numbers-adress {
-        position: static;
-        width: 285px;
-        height: 56px;
-        gap: 16px;
-        padding-left: 16px;
-    }
-
-    .adress-text {
-        font-size: 16px;
-        line-height: calc(20 / 16);
-    }
-
-    .numbers-hero-socials {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 23px;
-    }
-
-    .numbers-social-item {
-        margin-top: 0;
-    }
-
-    .number-price-modal-button {
-        position: absolute;
-        bottom: 62px;
-        right: 47px;
-    }
-
-    .hero-wrap {
-        margin-top: 24px;
-        gap: 41px;
-    }
-
-    @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .numbers-hero {
-        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 8.07%, rgba(0, 0, 0, 0) 16.15%), url(./img/room/room-desktop-2x.jpg);
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .numbers-hero {
+    height: 720px;
+  }
 
-    .numbers-hero {
-        height: 720px;
-    }
+  .btn-left {
+    top: 412px;
+    left: 85px;
+  }
 
-    .btn-left {
-        top: 412px;
-        left: 85px;
-    }
+  .btn-right {
+    top: 412px;
+    right: 85px;
+  }
 
-    .btn-right {
-        top: 412px;
-        right: 85px;
-    }
+  .numbers-h1 {
+    padding-top: 524px;
+  }
 
+  .numbers-adress {
+    display: none;
+  }
 
-     .numbers-h1 {
-        padding-top: 524px;
-     }
+  .numbers-hero-socials {
+    position: absolute;
+    top: 41px;
+    right: 88px;
+  }
 
-    .numbers-adress {
-        display: none;
-    }
-
-    .numbers-hero-socials {
-        position: absolute;
-        top: 41px;
-        right: 88px;
-    }
-
-    .number-price-modal-button {
-        bottom: 66px;
-        right: 85px;
-    }
+  .number-price-modal-button {
+    bottom: 66px;
+    right: 85px;
+  }
 }
