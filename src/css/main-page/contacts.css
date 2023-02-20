@@ -1,7 +1,7 @@
 
     /*============================MOBILE-CONTACTS===========================*/
 
-    @media screen and (max-width:1024px) {
+    @media screen and (max-width:1014px) {
         .container {
             max-width: 414px;
             padding-left: 15px;
@@ -234,8 +234,6 @@ flex-wrap: nowrap;
     /*============================TABLET-CONTACTS-POZITION===========================*/
     
     .contacts-maps-box {
-        /* width: 535px;
-        height: 412px;    */
             margin-left: auto;
             margin-right: auto;
         background: url(.png);
