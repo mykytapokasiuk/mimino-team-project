@@ -1,31 +1,7 @@
-:root {
-
-}
-.body {
-    margin: 0 auto;
-    font-style: normal;
-    background-color: #F0ECD6;
-}
-h1, h2, h3, h4, p, ul, ol {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.list {
-    list-style: none;
-    padding: 0;
-}
-.link {text-decoration: none;}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 .section {
 }
 .hotel-room {
     background-color: #F0ECD6;
-
 }
 .container {
     position: relative;
@@ -55,7 +31,7 @@ img {
     color: #B4B4B4;
 }
 .hotel-header-name {
-    font-family: 'FilmP3', 'sans-serif';
+    font-family: 'Film P3', 'sans-serif';
     font-weight: 700;
     font-size: 40px;
     line-height: calc(43/40);
@@ -103,7 +79,6 @@ img {
 .first-room-photo {
     display: block;
     width: 244px;
-    /* height: 322px; */
 }
 .room-photos-slider {
 }
@@ -116,7 +91,6 @@ img {
 }
 .slider-photos>img {
     width: 194px;
-    /* height: 194px; */
 } 
 .arrows {
     margin-bottom: 20px;
@@ -155,15 +129,8 @@ img {
 .button-prices {
 }
 
-@font-face {
-    font-family: "FilmP3";
-    src: url("../fonts/FilmP3.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
 @media screen and (min-width: 414px) {
     .room-container {
-        /* max-width: 384px; */
         min-width: 414px;
     }
     .header {
@@ -179,7 +146,6 @@ img {
 }
 @media screen and (min-width: 1024px) {
     .room-container {
-        /* max-width: 980px; */
         min-width: 1024px;
     }
     .hotel-room-header-right {
@@ -221,7 +187,6 @@ img {
     }
     .first-room-photo {
         width: 400px;
-        /* height: 524px; */
     }
     .room-photos-slider {
         margin-top: 129px;
@@ -244,7 +209,6 @@ img {
 
 @media screen and (min-width: 1280px) {
     .room-container {
-        /* max-width: 1110px; */
         max-width: 1280px;
     }
     .hotel-room-header-right {
@@ -267,7 +231,6 @@ img {
     }
     .first-room-photo {
         width: 460px;
-        /* height: 574px; */
     }
     .room-photos-slider {
         margin-top: 188px;
@@ -278,7 +241,6 @@ img {
     }
     .slider-photos>img {
         width: 254px;
-        /* height: 254px; */
     }
     .arrows {
         margin-right: 425px;
