@@ -1,0 +1,249 @@
+.section {
+}
+.hotel-room {
+  background-color: #f0ecd6;
+}
+.container {
+  position: relative;
+  padding: 0px 15px 32px;
+  outline: 1px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.hotel-room-header-right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  text-align: right;
+  gap: 8px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.mimino-motto {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  color: #b4b4b4;
+}
+.hotel-header-name {
+  font-family: 'Film P3', 'sans-serif';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;
+  color: #494848;
+}
+.hotel-room-3-bed {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-right: 0;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.three-bed-room-header {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  letter-spacing: 0.05em;
+  margin-right: -0.05em;
+  color: #000000;
+}
+.three-bed-room-description {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  min-width: 230px;
+}
+.first-room-photo > img,
+.slider-photos > img {
+  background: #dadada;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.room-photo {
+  margin-bottom: 32px;
+}
+.first-room-photo {
+  display: block;
+  width: 244px;
+}
+.room-photos-slider {
+}
+.photos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.slider-photos > img {
+  width: 194px;
+}
+.arrows {
+  margin-bottom: 20px;
+}
+.arrow-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: right;
+}
+.btn {
+  width: 236px;
+  padding: 16px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  cursor: pointer;
+  background: #000000;
+  border: 2px solid #f0ecd6;
+  border-radius: 25px;
+}
+.button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.button-more-details {
+}
+.button-prices {
+}
+
+@media screen and (min-width: 414px) {
+  .room-container {
+    min-width: 414px;
+  }
+  .header {
+  }
+  .three-bed-room-description {
+    width: 242px;
+  }
+  .hotel-room-3-bed {
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .room-container {
+    min-width: 1024px;
+  }
+  .hotel-room-header-right {
+    gap: 4px;
+    margin-right: 49px;
+    margin-top: 66px;
+    margin-bottom: 62px;
+  }
+  .mimino-motto {
+    font-size: 32px;
+    line-height: calc(37 / 32);
+  }
+  .hotel-header-name {
+    font-size: 64px;
+    line-height: calc(69 / 64);
+  }
+  .hotel-room-3-bed {
+    gap: 12px;
+    margin-left: 0;
+    margin-right: 52px;
+    margin-bottom: 32px;
+  }
+  .three-bed-room-header {
+    text-align: left;
+    font-size: 30px;
+    line-height: calc(34 / 30);
+  }
+  .three-bed-room-description {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.02em;
+    min-width: 400px;
+  }
+  .room-photo {
+    position: absolute;
+    left: 112px;
+    top: -32px;
+    margin-bottom: 0;
+  }
+  .first-room-photo {
+    width: 400px;
+  }
+  .room-photos-slider {
+    margin-top: 129px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+  }
+  .photos-list {
+    gap: 38px;
+  }
+  .arrows {
+    margin-right: 313px;
+    margin-bottom: 0;
+  }
+  .buttons {
+    position: absolute;
+    top: 581px;
+    left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .room-container {
+    max-width: 1280px;
+  }
+  .hotel-room-header-right {
+    gap: 4px;
+    margin-right: 127px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+  .hotel-room-3-bed {
+    margin-right: 127px;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .three-bed-room-header {
+    font-size: 36px;
+    line-height: calc(41 / 36);
+  }
+  .room-photo {
+    left: 180px;
+  }
+  .first-room-photo {
+    width: 460px;
+  }
+  .room-photos-slider {
+    margin-top: 188px;
+    margin-right: 70px;
+  }
+  .photos-list {
+    gap: 40px;
+  }
+  .slider-photos > img {
+    width: 254px;
+  }
+  .arrows {
+    margin-right: 425px;
+  }
+  .buttons {
+    top: 694px;
+    left: 70px;
+  }
+}
