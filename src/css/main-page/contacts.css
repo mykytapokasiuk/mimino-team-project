@@ -40,8 +40,7 @@
     }
     
     .contacts-link {
-        padding-right: 22px;
-        font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -126,19 +125,18 @@ flex-wrap: nowrap;
 }
 
 .contacts-link-restoran  {
-    margin-right: 13px;
+    margin-right: 36px;
     margin-bottom: 32px;
 }
+
 .contacts-phone {
     margin-left: 12px;
     
 }
-.contacts-phone-mobil {
-    margin-bottom: 32px;
-}
+
 .contacts-link-hotel {
     display: flex;
-    margin-right: 45px;
+    margin-right: 66px;
 }
 .contacts-addres-container {
     padding-left: 137px;
@@ -299,7 +297,13 @@ flex-wrap: nowrap;
 .contacts-addres-container {
     margin-top: 48px;
 }
-
+.container-map-left {
+    width: 1014px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+}
 
 
     }
@@ -404,7 +408,36 @@ flex-wrap: nowrap;
     .map-hotel-pc {
         display: block;
     }
+    .contact-container-map {
+        padding-top: 56px;
+    }
+    .contacts-logo {
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+.contacts-name {
+    margin-bottom: 40px;
+}
+
+.contacts-link {
+    margin-bottom: 19px;
+}
+
+
+
     
-    
-    
+    }
+
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
