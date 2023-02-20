@@ -15,16 +15,16 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 113px;
+    margin-top: 32px;
+    margin-bottom: 178px;
 
-    font-family: 'Times New Roman';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.16;
-    letter-spacing: 0.05em;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
 
     color: #FFFFFF;
-    text-transform: uppercase;
 }
 
 .hero-link {
@@ -110,30 +110,14 @@ h2 {
 
         color: #E5E5E5;
     }
-
     .hero-icon {
         position: absolute;
         margin-top: 13px;
         margin-left: 6px;
     }
-
-    .hero-text {
-        margin-top: 24px;
-        margin-bottom: 40px;
-
-        font-family: 'Montserrat';
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-
-        color: #FFFFFF;
-    }
-
     .hero-btn+.hero-btn {
         margin-top: 24px;
     }
-
     .hero-btn {
         display: flex;
         flex-direction: column;

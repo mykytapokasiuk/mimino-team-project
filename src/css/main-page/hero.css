@@ -48,7 +48,7 @@ h2 {
 
 
 @media screen and (max-width: 1023px) {
-    .container {
+    .hero-container {
         background: #2c2c37;
         width: 100%;
     }
