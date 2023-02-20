@@ -1,4 +1,4 @@
-h1 {
+.hero-title {
     width: 283px;
     height: 103px;
     margin-top: 70px;
@@ -13,7 +13,7 @@ h1 {
 
     color: #FFFFFF;
 }
-h2 {
+.hero-subtitle {
     margin-bottom: 113px;
 
     font-family: 'Times New Roman';
@@ -52,7 +52,7 @@ h2 {
         background: #2c2c37;
         width: 100%;
     }
-    .adress-box {
+    .hero-adress-box {
         display: none;
     }
     .hero {
@@ -60,7 +60,7 @@ h2 {
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-mobile-homepage.webp);
+            url(../img/hero-img/hero-mobile-homepage.webp);
         background-size: cover;
 
         max-width: 414px;
@@ -77,7 +77,7 @@ h2 {
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-mobile-homepage@2x.webp);
+                url(../img/hero-img/hero-mobile-homepage@2x.webp);
         }
     }
 
@@ -171,14 +171,14 @@ h2 {
 
 
 @media screen and (min-width: 1024px) {
-    .container {
+    .hero-container {
         background: #2c2c37;
         width: 100%;
     }
     .adress-box-mobile {
         display: none;
     }
-    h1 {
+    .hero-title {
         width: 378px;
         height: 138px;
         margin-top: 0;
@@ -186,7 +186,7 @@ h2 {
         font-size: 128px;
         line-height: 1.08;
     }
-    h2 {
+    .hero-subtitle {
         margin-bottom: 145px;
 
         font-size: 36px;
@@ -197,7 +197,7 @@ h2 {
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-tablet-homepage.webp);
+            url(../img/hero-img/hero-tablet-homepage.webp);
         background-size: cover;
 
         max-width: 1024px;
@@ -213,10 +213,10 @@ h2 {
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-tablet-homepage@2x.webp);
+                url(../img/hero-img/hero-tablet-homepage@2x.webp);
         }
     }
-    .adress-box {
+    .hero-adress-box {
         position: relative;
         display: flex;
         text-align: left;
@@ -227,7 +227,7 @@ h2 {
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
-    .adress-box>p {
+    .hero-adress-box>p {
         margin-top: 8px;
         margin-left: 44px;
 
@@ -260,9 +260,6 @@ h2 {
         margin-left: 40px;
     }
     .hero-btn {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
         width: 236px;
         height: 48px;
         padding: 0;
@@ -306,7 +303,7 @@ h2 {
 
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .hero-container {
         background: #2c2c37;
         width: 100%;
     }
@@ -315,7 +312,7 @@ h2 {
         display: none;
     }
 
-    h1 {
+    .hero-title {
         width: 378px;
         height: 138px;
         margin-top: 0;
@@ -324,7 +321,7 @@ h2 {
         line-height: 1.08;
     }
 
-    h2 {
+    .hero-subtitle {
         margin-bottom: 145px;
 
         font-size: 36px;
@@ -336,7 +333,7 @@ h2 {
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-desctop-homepage.webp);
+            url(../img/hero-img/hero-desctop-homepage.webp);
         background-size: cover;
 
         max-width: 1280px;
@@ -353,11 +350,11 @@ h2 {
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-desctop-homepage@2x.webp);
+                url(../img/hero-img/hero-desctop-homepage@2x.webp);
         }
     }
 
-    .adress-box {
+    .hero-adress-box {
         position: relative;
         display: flex;
         text-align: left;
@@ -369,7 +366,7 @@ h2 {
         border-radius: 2px;
     }
 
-    .adress-box>p {
+    .hero-adress-box>p {
         margin-top: 8px;
         margin-left: 44px;
 
@@ -406,9 +403,6 @@ h2 {
     }
 
     .hero-btn {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
         width: 256px;
         height: 48px;
         padding: 0;
