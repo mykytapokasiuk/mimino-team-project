@@ -5,7 +5,7 @@
   --main-luxe-room-image-background: #939393;
 }
 
-.container {
+.hotel-luxe-room-container {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -28,7 +28,7 @@
   margin-bottom: 8px;
 }
 
-.hotel-name {
+.hotel-luxe-room-name {
   font-family: "Film P3", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -89,7 +89,7 @@
   color: var(--main-luxe-room-active-color);
   text-align: center;
   background: var(--main-luxe-room-button-background);
-  border: 2px solid var(--main-luxe-room-active-color);
+  border: 2px solid var(--main-luxe-room-button-background);
   border-radius: 25px;
   display: block;
   padding: 14px;
@@ -107,6 +107,11 @@
   background-color: #ffffff;
   border: 2px solid var(--main-luxe-room-active-color);
   color: var(--main-luxe-room-active-color);
+}
+
+.hotel-luxe-slider {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .luxe-room-slider {
@@ -176,7 +181,7 @@
 }
 
 @media screen and (min-width: 414px) {
-  .container {
+  .hotel-luxe-room-container {
     width: 414px;
   }
 
@@ -186,7 +191,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hotel-luxe-room > .container {
+  .hotel-luxe-room-container {
     width: 1024px;
     padding-right: 47px;
     padding-left: 47px;
@@ -203,7 +208,7 @@
     margin-bottom: 4px;
   }
 
-  .hotel-name {
+  .hotel-luxe-room-name {
     font-size: 64px;
     line-height: 1.08;
     margin-bottom: 62px;
@@ -270,13 +275,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hotel-luxe-room > .container {
+  .hotel-luxe-room-container {
     width: 1280px;
     padding-right: 85px;
     padding-left: 85px;
   }
 
-  .hotel-name {
+  .hotel-luxe-room-name {
     margin-bottom: 72px;
   }
 
