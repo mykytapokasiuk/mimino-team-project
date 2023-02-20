@@ -27,12 +27,11 @@
   padding-top: 24px;
   padding-bottom: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-    -webkit-image-set(url('../img/details-of-our-restaurant/mobile/bg-mobile.webp')
-          1x, url('../img/details-of-our-restaurant/mobile/bg-mobile@2x.webp')
-          2x);
+    -webkit-image-set(url('./img/details-of-our-restaurant/mobile/bg-mobile.webp')
+          1x, url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x);
   background-image: image-set(
-    url('../img/details-of-our-restaurant/mobile/bg-mobile.webp') 1x,
-    url('../img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x
+    url('./img/details-of-our-restaurant/mobile/bg-mobile.webp') 1x,
+    url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x
   );
   background-repeat: no-repeat;
   background-position: center;
@@ -43,12 +42,12 @@
   .details-of-our-restaurant {
     padding-top: 48px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      -webkit-image-set(url('../img/details-of-our-restaurant/tablet/bg-tablet.webp')
-            1x, url('../imgdetails-of-our-restaurant/tablet/bg-tablet@2x.webp')
+      -webkit-image-set(url('./img/details-of-our-restaurant/tablet/bg-tablet.webp')
+            1x, url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp')
             2x);
     background-image: image-set(
-      url('../img/details-of-our-restaurant/tablet/bg-tablet.webp') 1x,
-      url('../img/details-of-our-restaurant/tablet/bg-tablet@2x.webp') 2x
+      url('./img/details-of-our-restaurant/tablet/bg-tablet.webp') 1x,
+      url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp') 2x
     );
   }
 }
@@ -56,12 +55,12 @@
 @media screen and (min-width: 1280px) {
   .details-of-our-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      -webkit-image-set(url('../img/details-of-our-restaurant/desktop/bg-desktop.webp')
-            1x, url('../img/details-of-our-restaurant/desktop/bg-desktop@2x.webp')
+      -webkit-image-set(url('./img/details-of-our-restaurant/desktop/bg-desktop.webp')
+            1x, url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp')
             2x);
     background-image: image-set(
-      url('../img/details-of-our-restaurant/desktop/bg-desktop.webp') 1x,
-      url('../img/details-of-our-restaurant/desktop/bg-desktop@2x.webp') 2x
+      url('./img/details-of-our-restaurant/desktop/bg-desktop.webp') 1x,
+      url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp') 2x
     );
   }
 }
