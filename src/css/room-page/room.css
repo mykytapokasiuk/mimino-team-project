@@ -1,28 +1,6 @@
 @import url('./amenities.css');
 @import url('./hero.css');
 
-body {
-  margin: auto;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-li {
-  list-style-type: none;
-}
-
 .numbers-container {
   position: relative;
 
