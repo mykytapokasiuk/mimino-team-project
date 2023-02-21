@@ -11,7 +11,6 @@
     letter-spacing: 0.3em;
     color: #FFFFFF;
 }
-
 .hero-subtitle-restaurant {
     margin-top: 20px;
     margin-bottom: 44px;
@@ -52,7 +51,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-mobile-restourant.webp);
+            url('../../img/hero-img/hero-mobile-restourant.webp');
         background-size: cover;
         max-width: 414px;
         margin: 0 auto;
@@ -67,7 +66,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-mobile-restourant@2x.webp);
+                url('../../img/hero-img/hero-mobile-restourant@2x.webp');
         }
     }
     .adress-box-mobile {
@@ -80,7 +79,6 @@
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
-
     .adress-box-mobile>p {
         margin-top: 8px;
         margin-left: 34px;
@@ -202,7 +200,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(.//../img/hero-img/hero-tablet-restourant.webp);
+            url('../../img/hero-img/hero-tablet-restourant.webp');
         background-size: cover;
         max-width: 1024px;
         margin: 0 auto;
@@ -217,7 +215,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-tablet-restourant@2x.webp);
+                url('../../img/hero-img/hero-tablet-restourant@2x.webp');
         }
     }
     .hero-adress-box {
@@ -325,7 +323,6 @@
         background: #2c2c37;
         width: 100%;
     }
-
     .adress-box-mobile {
         display: none;
     }
@@ -344,7 +341,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-desctop-restourant.webp);
+            url('../../img/hero-img/hero-desctop-restourant.webp');
         background-size: cover;
         max-width: 1280px;
         margin: 0 auto;
@@ -359,7 +356,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-desctop-restourant@2x.webp);
+                url('../../img/hero-img/hero-desctop-restourant@2x.webp');
         }
     }
     .hero-adress-box {
