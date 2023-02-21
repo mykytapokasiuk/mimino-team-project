@@ -18,7 +18,9 @@
 .backdrop.is-hidden .modal {
     transform: scale(1.2);
 }
-
+body.modal-open {
+    overflow: hidden;
+}
 .icon {
     fill: currentColor;
 }
