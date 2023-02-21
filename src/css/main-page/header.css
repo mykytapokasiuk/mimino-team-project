@@ -1,7 +1,8 @@
 .container-header{
     width: 100%;
     margin: 0;
-    padding: 15px 16px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .logotype-header{
@@ -14,16 +15,14 @@ line-height: 39px;
 letter-spacing: 0.3em;
 color: #FFFFFF;
 }
-.logo-header{
-    display: flex;
-    justify-content: space-between;
-}
 .navigation-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top:16px;
+    
 }
-
 .list-header{
     margin: 0;
     padding: 0;
@@ -77,25 +76,36 @@ display: none;
 .icons-header{
 display: none;
 }
+@media screen and (max-width:413px) {
+    .navigation-header{
+        width: calc(100% - 30px);
+    }
+}
 @media screen and (min-width:414px){
     .container-header{
         width: 384px;
         margin-left: auto;
         margin-right: auto;
     }
+    .logotype-header{
+        margin-right: 52px;
+    }
 }
 @media screen and (min-width:1024px) {
     .container-header{
         width: 996px;
-        padding: 24px 47px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .navigation-header{
+        top:24px;   
     }
     .logotype-header{
         font-weight: 700;
         font-size: 40px;
         line-height: 43px;
         letter-spacing: 0.3em;
+        margin-right: 207px;
     }
     .phone-mobile-header{
         display: none;
@@ -141,14 +151,17 @@ display: none;
 @media screen and (min-width:1280px) {
     .container-header{
         width: 1250px;
-        padding-left: 85px;
-        padding-right: 85px;
+        padding-left: 60px;
         margin-right: auto;
         margin-left: auto;
     }
     .logotype-header{
         line-height: 43px;
         letter-spacing: 0.3em;
+        margin-right: 135px;
+    }
+    .list-header{
+        margin-right: 130px;
     }
     .icons-header{
         display: flex;
