@@ -28,7 +28,8 @@
   padding-bottom: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
     -webkit-image-set(url('../../img/details-of-our-restaurant/mobile/bg-mobile.jpg')
-          1x, url('../../img/details-of-our-restaurant/mobile/bg-mobile@2x.jpg') 2x);
+          1x, url('../../img/details-of-our-restaurant/mobile/bg-mobile@2x.jpg')
+          2x);
   background-image: image-set(
     url('../../img/details-of-our-restaurant/mobile/bg-mobile.jpg') 1x,
     url('../../img/details-of-our-restaurant/mobile/bg-mobile@2x.jpg') 2x
