@@ -64,9 +64,6 @@ color: #F3C653;
 }
 
 
-
-
-
 /*============================MOBILE-FOOTER-POZITION===========================*/
 .footer-social-list-link {
     display: flex;
@@ -87,6 +84,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .footer-container {
     display: flex;
+    width: 100%;
 }
 .footer-logo {
     padding-top: 98px;    
@@ -123,6 +121,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .footer-box {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -134,6 +133,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .footer-list-head {
     margin-bottom: 33px;
 }
+
 
 
 }
