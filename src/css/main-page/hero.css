@@ -52,7 +52,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-mobile-homepage.webp);
+            url('../../img/hero-img/hero-mobile-homepage.webp');
         background-size: cover;
         max-width: 414px;
         margin: 0 auto;
@@ -67,7 +67,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-mobile-homepage@2x.webp);
+                url('../../img/hero-img/hero-mobile-homepage@2x.webp');
         }
     }
     .adress-box-mobile {
@@ -170,7 +170,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-tablet-homepage.webp);
+            url('../../img/hero-img/hero-tablet-homepage.webp');
         background-size: cover;
         max-width: 1024px;
         margin: 0 auto;
@@ -185,7 +185,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-tablet-homepage@2x.webp);
+                url('../../img/hero-img/hero-tablet-homepage@2x.webp');
         }
     }
     .hero-adress-box {
@@ -287,7 +287,7 @@
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../../img/hero-img/hero-desctop-homepage.webp);
+            url('../../img/hero-img/hero-desctop-homepage.webp');
         background-size: cover;
         max-width: 1280px;
         margin: 0 auto;
@@ -303,7 +303,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../../img/hero-img/hero-desctop-homepage@2x.webp);
+                url('../../img/hero-img/hero-desctop-homepage@2x.webp');
         }
     }
     .hero-adress-box {
