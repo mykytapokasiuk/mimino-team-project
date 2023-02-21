@@ -4,26 +4,22 @@
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 96px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-
     color: #FFFFFF;
 }
 
 .hero-subtitle-hotel {
     margin-top: 32px;
     margin-bottom: 178px;
-
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
@@ -34,9 +30,8 @@
     width: 24px;
     height: 24px;
     border-radius: 4px;
-
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-link:hover,
@@ -47,26 +42,20 @@
 }
 
 /* MOBILE VERSION */
-
-
 @media screen and (max-width: 1023px) {
     .hero-container {
         background: #2c2c37;
         width: 100%;
     }
-
     .hero-adress-box {
         display: none;
     }
-
     .hero-hotel {
-
-        background-image: linear-gradient(to right,
+     background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-img/hero-mobile-hotel.webp);
+            url(../../img/hero-img/hero-mobile-hotel.webp);
         background-size: cover;
-
         max-width: 414px;
         margin: 0 auto;
         padding: 64px 15px 20px 15px;
@@ -81,7 +70,7 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../img/hero-img/hero-mobile-hotel@2x.webp);
+                url(../../img/hero-img/hero-mobile-hotel@2x.webp);
         }
     }
 
@@ -92,22 +81,17 @@
         margin-left: auto;
         width: 210px;
         height: 47px;
-
-
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
-
     .adress-box-mobile>p {
         margin-top: 8px;
         margin-left: 34px;
-
         font-family: 'Montserrat';
         font-weight: 400;
         font-size: 12px;
         line-height: 1.25;
         letter-spacing: 0.01em;
-
         color: #E5E5E5;
     }
     .hero-icon {
@@ -128,20 +112,16 @@
         margin-left: auto;
         margin-right: auto;
         background-color: rgba(0, 0, 0, 0.4);
-
         border: 2px solid #FFFFFF;
         border-radius: 25px;
-
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.02em;
-
         color: #F3C653;
-
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .hero-btn:hover,
@@ -150,7 +130,6 @@
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
-
     .hero-list {
         display: flex;
         justify-content: left;
@@ -162,8 +141,6 @@
 }
 
 /* TABLET VERSION */
-
-
 @media screen and (min-width: 1024px) {
     .hero-container {
         background: #2c2c37;
@@ -178,30 +155,23 @@
         width: 378px;
         height: 138px;
         margin-top: 0;
-
         font-size: 128px;
         line-height: 1.08;
     }
-
     .hero-subtitle-hotel {
         margin-bottom: 218px;
-
     }
-
     .hero-hotel {
-
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-img/hero-tablet-hotel.webp);
+            url(../../img/hero-img/hero-tablet-hotel.webp);
         background-size: cover;
-
         max-width: 1024px;
         margin: 0 auto;
         padding: 188px 47px 20px 47px;
         text-align: center;
     }
-
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -210,10 +180,9 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../img/hero-img/hero-tablet-hotel@2x.webp);
+                url(../../img/hero-img/hero-tablet-hotel@2x.webp);
         }
     }
-
     .hero-adress-box {
         position: relative;
         display: flex;
@@ -221,65 +190,51 @@
         margin-right: 137px;
         width: 285px;
         height: 56px;
-
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
-
     .hero-adress-box>p {
         margin-top: 8px;
         margin-left: 44px;
-
         font-family: 'Montserrat';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.01em;
-
         color: #E5E5E5;
     }
-
     .hero-icon {
         position: absolute;
         margin-top: 16px;
         margin-left: 10px;
     }
-
     .hero-text {
         margin-top: 16px;
         margin-bottom: 56px;
-
         font-family: 'Montserrat';
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-
         color: #FFFFFF;
     }
-
     .hero-btn+.hero-btn {
         margin-left: 40px;
     }
-
     .hero-btn {
         width: 236px;
         height: 48px;
         padding: 0;
         margin-top: 8px;
         background-color: rgba(0, 0, 0, 0.4);
-
         border: 2px solid #FFFFFF;
         border-radius: 25px;
-
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.02em;
-
         color: #F3C653;
-
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -290,11 +245,9 @@
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
-
     .btn-adress-box {
         display: flex;
     }
-
     .hero-list {
         display: flex;
         justify-content: left;
@@ -306,46 +259,35 @@
 }
 
 /* DESKTOP VERSION */
-
-
 @media screen and (min-width: 1280px) {
     .hero-container {
         background: #2c2c37;
         width: 100%;
     }
-
     .adress-box-mobile {
         display: none;
     }
-
     .hero-title-hotel {
         width: 378px;
         height: 138px;
         margin-top: 0;
-
         font-size: 128px;
         line-height: 1.08;
     }
-
     .hero-subtitle-hotel {
         margin-bottom: 218px;
-
     }
-
     .hero-hotel {
-
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-img/hero-desctop-hotel.webp);
+            url(../../img/hero-img/hero-desctop-hotel.webp);
         background-size: cover;
-
         max-width: 1280px;
         margin: 0 auto;
         padding: 188px 85px 65px 85px;
         text-align: center;
     }
-
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -354,10 +296,9 @@
             background-image: linear-gradient(to right,
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
-                url(../img/hero-img/hero-desctop-hotel@2x.webp);
+                url(../../img/hero-img/hero-desctop-hotel@2x.webp);
         }
     }
-
     .hero-adress-box {
         position: relative;
         display: flex;
@@ -365,65 +306,51 @@
         margin-right: 253px;
         width: 285px;
         height: 56px;
-
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
-
     .hero-adress-box>p {
         margin-top: 8px;
         margin-left: 44px;
-
         font-family: 'Montserrat';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.01em;
-
         color: #E5E5E5;
     }
-
     .hero-icon {
         position: absolute;
         margin-top: 16px;
         margin-left: 10px;
     }
-
     .hero-text {
         margin-top: 32px;
         margin-bottom: 64px;
-
         font-family: 'Montserrat';
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-
         color: #FFFFFF;
     }
-
     .hero-btn+.hero-btn {
         margin-left: 60px;
     }
-
     .hero-btn {
         width: 256px;
         height: 48px;
         padding: 0;
         margin-top: 8px;
         background-color: rgba(0, 0, 0, 0.4);
-
         border: 2px solid #FFFFFF;
         border-radius: 25px;
-
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.02em;
-
         color: #F3C653;
-
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -434,11 +361,9 @@
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
-
     .btn-adress-box {
         display: flex;
     }
-
     .hero-list {
         display: none;
     }
