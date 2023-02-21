@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.55) 8.07%,
       rgba(0, 0, 0, 0) 16.15%
     ),
-    url(../img/room/room.jpg);
+    url(../../img/room/room.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -157,7 +157,7 @@
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../img/room/room-2x.jpg);
+      url(../../img/room/room-2x.jpg);
   }
 }
 
@@ -169,7 +169,7 @@
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../img/room/room-tablet.jpg);
+      url(../../img/room/room-tablet.jpg);
     background-size: cover;
   }
 
@@ -183,7 +183,7 @@
           rgba(0, 0, 0, 0.55) 8.07%,
           rgba(0, 0, 0, 0) 16.15%
         ),
-        url(../img/room/room-tablet-2x.jpg);
+        url(../../img/room/room-tablet-2x.jpg);
     }
   }
 }
@@ -197,7 +197,7 @@
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../img/room/room-desktop.jpg);
+      url(../../img/room/room-desktop.jpg);
   }
 
   .btn-left {
@@ -269,7 +269,7 @@
           rgba(0, 0, 0, 0.55) 8.07%,
           rgba(0, 0, 0, 0) 16.15%
         ),
-        url(../img/room/room-desktop-2x.jpg);
+        url(../../img/room/room-desktop-2x.jpg);
     }
   }
 }
