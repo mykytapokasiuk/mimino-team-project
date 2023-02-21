@@ -21,7 +21,6 @@
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
 .hero-link {
     display: flex;
     align-items: center;
@@ -105,16 +104,16 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
-    .hero-btn+.hero-btn {
+    .hero-btn-main+.hero-btn-main {
         margin-top: 24px;
     }
-    .hero-btn {
+    .hero-btn-main {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 236px;
         height: 48px;
-        padding: 0;
+        padding-left: 24px;
+        padding-right: 24px;
         margin-left: auto;
         margin-right: auto;
         background-color: rgba(0, 0, 0, 0.4);
@@ -129,9 +128,9 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .hero-btn:hover,
-    .hero-btn:focus,
-    .hero-btn:active {
+    .hero-btn-main:hover,
+    .hero-btn-main:focus,
+    .hero-btn-main:active {
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
@@ -223,13 +222,11 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
-    .hero-btn+.hero-btn {
+    .hero-btn-main+.hero-btn-main {
         margin-left: 40px;
     }
-    .hero-btn {
-        width: 236px;
-        height: 48px;
-        padding: 0;
+    .hero-btn-main {
+        width: 234px;
         margin-top: 8px;
         background-color: rgba(0, 0, 0, 0.4);
         border: 2px solid #FFFFFF;
@@ -243,9 +240,9 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .hero-btn:hover,
-    .hero-btn:focus,
-    .hero-btn:active {
+    .hero-btn-main:hover,
+    .hero-btn-main:focus,
+    .hero-btn-main:active {
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
@@ -294,7 +291,6 @@
         padding: 188px 85px 65px 85px;
         text-align: center;
     }
-
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -342,13 +338,11 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
-    .hero-btn+.hero-btn {
+    .hero-btn-main+.hero-btn-main {
         margin-left: 60px;
     }
-    .hero-btn {
+    .hero-btn-main {
         width: 256px;
-        height: 48px;
-        padding: 0;
         margin-top: 8px;
         background-color: rgba(0, 0, 0, 0.4);
         border: 2px solid #FFFFFF;
@@ -362,9 +356,9 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .hero-btn:hover,
-    .hero-btn:focus,
-    .hero-btn:active {
+    .hero-btn-main:hover,
+    .hero-btn-main:focus,
+    .hero-btn-main:active {
         background-color: #FFFFFF;
         border-color: #F3C653;
     }
