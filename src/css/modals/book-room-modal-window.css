@@ -80,9 +80,9 @@ body.modal-open {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(../../img/modal-icons/arrow.svg) no-repeat;
+    background: url('../../img/modal-icons/arrow.svg') no-repeat;
     background-size: 24px;
-    background-position: calc(100% - 10px) center;
+    background-position: calc(100% - 20px) center;
     padding: 5px 25px 5px 12px;
     border: 1px solid #C79002;
     border-radius: 2px;
@@ -160,7 +160,7 @@ option {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(../../img/modal-icons/arrow.svg);
+    background-image: url('../../img/modal-icons/arrow.svg');
 }
 
 .modal-title {
@@ -262,4 +262,11 @@ option {
     .input-form:nth-last-child(-n + 2) {
         margin-bottom: 0px;
     }
+    .select-input{
+background-position: calc(100% - 20px) center;
+    }
+        .svg-input::after {
+            position: absolute;
+            top: 20px;
+            right: 20px;}
 }
