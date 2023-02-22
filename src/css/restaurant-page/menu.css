@@ -199,6 +199,12 @@ border-radius: 25px;
 }
 
 
+@media screen and (min-width:1024px) {
+    .restorent-wrap{
+    width: 960px;
+    }
+}
+
 
 @media screen and (min-width:1280px) {
     .menu-conteiner{
@@ -225,6 +231,13 @@ border-radius: 25px;
 @media screen and (min-width:1280px) {
     .sub-title{
         width: 257px;
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .restorent-wrap{
+    width: 1114px;
     }
 }
 
