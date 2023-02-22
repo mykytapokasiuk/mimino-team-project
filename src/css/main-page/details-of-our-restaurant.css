@@ -1,23 +1,23 @@
-.container {
+.details-rest-container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media screen and (min-width: 414px) {
-  .container {
+  .details-rest-container {
     width: 414px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .container {
+  .details-rest-container {
     width: 1024px;
     padding-left: 47px;
     padding-right: 47px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .details-rest-container {
     width: 1280px;
     padding-left: 85px;
     padding-right: 52px;
@@ -27,11 +27,12 @@
   padding-top: 24px;
   padding-bottom: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-    -webkit-image-set(url('./img/details-of-our-restaurant/mobile/bg-mobile.webp')
-          1x, url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x);
+    -webkit-image-set(url('../../img/details-of-our-restaurant/mobile/bg-mobile.jpg')
+          1x, url('../../img/details-of-our-restaurant/mobile/bg-mobile@2x.jpg')
+          2x);
   background-image: image-set(
-    url('./img/details-of-our-restaurant/mobile/bg-mobile.webp') 1x,
-    url('./img/details-of-our-restaurant/mobile/bg-mobile@2x.webp') 2x
+    url('../../img/details-of-our-restaurant/mobile/bg-mobile.jpg') 1x,
+    url('../../img/details-of-our-restaurant/mobile/bg-mobile@2x.jpg') 2x
   );
   background-repeat: no-repeat;
   background-position: center;
@@ -42,12 +43,12 @@
   .details-of-our-restaurant {
     padding-top: 48px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      -webkit-image-set(url('./img/details-of-our-restaurant/tablet/bg-tablet.webp')
-            1x, url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp')
+      -webkit-image-set(url('../../img/details-of-our-restaurant/tablet/bg-tablet.jpg')
+            1x, url('../../img/details-of-our-restaurant/tablet/bg-tablet@2x.jpg')
             2x);
     background-image: image-set(
-      url('./img/details-of-our-restaurant/tablet/bg-tablet.webp') 1x,
-      url('./img/details-of-our-restaurant/tablet/bg-tablet@2x.webp') 2x
+      url('../../img/details-of-our-restaurant/tablet/bg-tablet.jpg') 1x,
+      url('../../img/details-of-our-restaurant/tablet/bg-tablet@2x.jpg') 2x
     );
   }
 }
@@ -55,12 +56,12 @@
 @media screen and (min-width: 1280px) {
   .details-of-our-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-      -webkit-image-set(url('./img/details-of-our-restaurant/desktop/bg-desktop.webp')
-            1x, url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp')
+      -webkit-image-set(url('../../img/details-of-our-restaurant/desktop/bg-desktop.jpg')
+            1x, url('../../img/details-of-our-restaurant/desktop/bg-desktop@2x.jpg')
             2x);
     background-image: image-set(
-      url('./img/details-of-our-restaurant/desktop/bg-desktop.webp') 1x,
-      url('./img/details-of-our-restaurant/desktop/bg-desktop@2x.webp') 2x
+      url('../../img/details-of-our-restaurant/desktop/bg-desktop.jpg') 1x,
+      url('../../img/details-of-our-restaurant/desktop/bg-desktop@2x.jpg') 2x
     );
   }
 }
@@ -174,7 +175,7 @@
 }
 @media screen and (min-width: 1280px) {
   .details-img-list {
-    gap: 90px;
+    gap: 88px;
   }
 }
 
@@ -225,7 +226,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
-  padding: 14px 22px;
+  padding: 14px 20px;
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 25px;
@@ -253,7 +254,7 @@
   max-height: 48px;
   margin-left: auto;
   margin-right: auto;
-  padding: 14px 29px;
+  padding: 14px 28px;
   border: 2px solid #ffffff;
   border-radius: 25px;
   color: #f3c653;
