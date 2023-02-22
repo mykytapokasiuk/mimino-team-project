@@ -298,6 +298,7 @@
   }
 
   .numbers-hero-socials {
+    display: none;
     position: absolute;
     top: 41px;
     right: 88px;
