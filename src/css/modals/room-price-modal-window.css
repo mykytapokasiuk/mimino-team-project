@@ -128,7 +128,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../img/modals/arrow.svg) no-repeat;
+  background: url('../img/modals/arrow.svg') no-repeat;
   background-size: 24px;
   background-position: calc(100% - 10px) center;
   padding: 5px 25px 5px 12px;
@@ -152,7 +152,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(../img/modals/arrow.svg);
+  background-image: url('../img/modals/arrow.svg');
 }
 .modal-form-button {
   font-style: normal;
