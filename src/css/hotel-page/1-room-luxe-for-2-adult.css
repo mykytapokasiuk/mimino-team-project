@@ -148,23 +148,17 @@
   display: block;
 }
 
-.slider-prev span {
-  border: none;
-  width: 30px;
-  height: 17px;
-}
-
 .slider-prev,
 .slider-next {
   border: none;
   background-color: transparent;
 }
 
-.slider-prev span:hover,
-.slider-prev span:focus,
-.slider-next span:hover,
-.slider-next span:hover {
-  color: var(--main-luxe-room-active-color);
+.slider-prev:hover,
+.slider-prev:focus,
+.slider-next:hover,
+.slider-next:hover {
+  fill: var(--main-double-room-active-color);
 }
 
 .visually-hidden {
