@@ -240,6 +240,9 @@ fill: #f3c653;
     gap: 16px;
     padding-left: 16px;
   }
+  .location-icon-room {
+    fill: #F3C653;
+  }
 
   .adress-text {
     font-size: 16px;
