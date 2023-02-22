@@ -128,12 +128,14 @@ line-height: 1.25;
 letter-spacing: 0.02em;
 color: #F3C653;
 cursor: pointer;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-btn:hover,
 .menu-btn:focus{
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
+border: 2px solid #F3C653;
+border-radius: 25px;
 }
 
 @media screen and (min-width:414px) {
