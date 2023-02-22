@@ -35,28 +35,45 @@
                 <option value="value2">9</option>
                 <option value="value2">10</option>
               </select>
-              <span class="text-inside-inputs"
-          >Кількість ночей</span
-        >
             </div>
-            <div class="inputs-containers">
-              <label>
-                <input
+            <span class="modal-form-input-name"
+              >Кількість ночей</span
+            >
+          </label>
+        </div>
+        <div class="modal-item">
+          <label class="modal-form-label">
+              <input
                 type="text"
-                name="number-night"
-                class="general-input"
+                name="user-phone"
+                class="modal-form-input"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                minlength="1"
+                minlength="2"
                 placeholder="1000"
               />
-              <span class="text-inside-inputs">грн</span>
-            </label>
+              <div>
+                <select name="number-persons" class="select visually-hidden">
+                  <option value="value1">1</option>
+                  <option value="value2">2</option>
+                  <option value="value2">3</option>
+                  <option value="value2">4</option>
+                  <option value="value2">5</option>
+                  <option value="value2">6</option>
+                  <option value="value2">7</option>
+                  <option value="value2">8</option>
+                  <option value="value2">9</option>
+                  <option value="value2">10</option>
+                </select>
+              </div>
+            
+            <span class="modal-form-input-name">грн</span>
+          </label>
         </div>
-      </div>
-        <button type="submit" class="modal-form-button" data-modal-close>
-          ЗАБРОНЮВАТИ НОМЕР
-      </button>
     </div>
+        <button type="submit" class="modal-form-button" data-modal-close>
+            ЗАБРОНЮВАТИ НОМЕР
+        </button>
       </form>
     </div>
   </div>
+
