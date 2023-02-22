@@ -131,7 +131,10 @@ cursor: pointer;
 
 }
 
-
+.menu-btn:hover,
+.menu-btn:focus{
+    background-color: #FFFFFF;
+}
 
 @media screen and (min-width:414px) {
     .menu-conteiner{
