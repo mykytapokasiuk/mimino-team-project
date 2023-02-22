@@ -119,6 +119,15 @@
   align-items: center;
 }
 
+.social-link-icon {
+fill: #f3c653;
+}
+
+.social-link-icon:hover {
+  fill: #ffffff;
+}
+
+
 .number-price-modal-button {
   width: 232px;
   height: 48px;
@@ -298,6 +307,7 @@
   }
 
   .numbers-hero-socials {
+    display: none;
     position: absolute;
     top: 41px;
     right: 88px;
