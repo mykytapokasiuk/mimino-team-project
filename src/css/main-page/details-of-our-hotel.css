@@ -33,7 +33,7 @@ background-color: #000000B2;
 }
 
 .hotel-details__overlay{
-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../hotel-details/mob-background.jpg");
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/hotel-details/mob-background.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -42,7 +42,7 @@ background-size: cover;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .hotel-details__overlay {
-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../hotel-details/mob-background-2x.jpg");
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/hotel-details/mob-background-2x.jpg");
 }
 }
 
@@ -63,7 +63,7 @@ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0
   }
 
   .hotel-details__overlay{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../hotel-details//tab-background.jpg");
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/hotel-details//tab-background.jpg");
     background-repeat: no-repeat;
      background-size: cover;
   }
@@ -73,7 +73,7 @@ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hotel-details__overlay {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../hotel-details/tab-background-2x.jpg');
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../img/hotel-details/tab-background-2x.jpg');
 }
 }
 
@@ -83,7 +83,7 @@ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0
   }
 
   .hotel-details__overlay{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../hotel-details/desktop-background.jpg");
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/hotel-details/desktop-background.jpg");
     background-repeat: no-repeat;
      background-size: cover;
   }
@@ -93,7 +93,7 @@ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hotel-details__overlay {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../hotel-details/desktop-background-2x.jpg');
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../img/hotel-details/desktop-background-2x.jpg');
 }
 }
 
