@@ -9,14 +9,11 @@ margin-right: auto;
 padding: 0 15px;
 }
 
-
-
 .menu-section{
 background-color: #FFFDEE;
 margin-top: 0;
 padding-top: 32px;
 padding-bottom: 32px;
-
 }
 
 .restorant-menu {
@@ -27,11 +24,7 @@ line-height: 1.15;
 color: #000000;
 margin-bottom: 32px;
 margin-top: 0;
-
 }
-
-
-
 
 .tr{
 display: flex;
@@ -47,7 +40,6 @@ line-height: 1.09;
 color: #000000;
 margin-bottom: 16px;
 margin-top: 20px;
-
 }
 
 .sub-title{
@@ -60,11 +52,6 @@ margin-bottom: 4px;
 margin-top: 0;
 width: 225px;
 }
-
-
-
-
-
 
 .text{
 font-family: 'Montserrat';
@@ -112,9 +99,6 @@ width: 54px;
     align-items: center;
 }
 
-
-
-
 .menu-btn{
 width: 236px;
 height: 48px;
@@ -144,15 +128,11 @@ border-radius: 25px;
     }
 }
 
-
-
 @media screen and (min-width:1024px) {
     .menu-conteiner{
         width: 1024px;
-       
     }
 }
-
 
 @media screen and (min-width:1024px) {
     .menu-section{
@@ -170,10 +150,8 @@ border-radius: 25px;
     }
 }
 
-
 @media screen and (min-width:1024px) {
     .sub-title{
-        
         width: 225px;
     }
 }
@@ -184,7 +162,6 @@ border-radius: 25px;
         justify-content: center;
      }
 }
-
 
 @media screen and (min-width:1024px) {
     .half-wrap-second{
@@ -198,29 +175,23 @@ border-radius: 25px;
     }
 }
 
-
 @media screen and (min-width:1024px) {
     .restorent-wrap{
     width: 960px;
     }
 }
 
-
 @media screen and (min-width:1280px) {
     .menu-conteiner{
         width: 1280px;
-       
     }
 }
-
 
 @media screen and (min-width:1280px) {
     .restorant-menu {
         padding-left: 15px;
-       
     }
 }
-
 
 @media screen and (min-width:1280px) {
     .text{
@@ -234,7 +205,6 @@ border-radius: 25px;
     }
 }
 
-
 @media screen and (min-width:1280px) {
     .restorent-wrap{
     width: 1114px;
@@ -247,7 +217,6 @@ border-radius: 25px;
         margin-right: 56px;
     }
 }
-
 
 @media screen and (min-width:1280px) {
     .half-wrap-second{
