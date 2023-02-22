@@ -1,3 +1,7 @@
+address {
+  text-decoration: none;
+}
+
 .contacts-container {
   margin: auto;
   height: 100%;
@@ -37,6 +41,10 @@
 }
 
 .contacts-header {
+  display: none;
+}
+
+.contacts-company-name {
   margin-bottom: 12px;
 
   font-family: 'Film P3';
@@ -82,14 +90,21 @@
 }
 
 .location-icon {
-    fill: #C79002;;
+  fill: #c79002;
+}
+
+.contacts-adress > .address {
+    width: fit-content;
+    height: fit-content;
 }
 
 .contacts-adress-text {
+    display: flex;
   width: 183px;
   height: 61px;
 
   font-family: 'Montserrat';
+  font-style: normal;
   font-size: 16px;
   line-height: calc(20 / 16);
   letter-spacing: 0.01em;
@@ -171,7 +186,7 @@
     align-items: flex-end;
   }
 
-  .contacts-header {
+  .contacts-company-name {
     text-decoration: none;
     margin-bottom: 8px;
     padding-bottom: 0;
@@ -211,21 +226,19 @@
 }
 
 @media screen and (min-width: 1280px) {
-.contacts {
+  .contacts {
     padding-top: 64px;
     padding-bottom: 73px;
-}
+  }
 
-.contacts-header {
+  .contacts-company-name {
     margin-bottom: 16px;
-}
-.contacts-above-header {
+  }
+  .contacts-above-header {
     margin-bottom: 40px;
-}
+  }
 
-
-
-    .contacts-map {
+  .contacts-map {
     width: 634px;
   }
 }
