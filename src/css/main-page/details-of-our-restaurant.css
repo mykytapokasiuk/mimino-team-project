@@ -206,6 +206,13 @@
 }
 .details-icon {
   fill: #ffffff;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.details-icon:hover,
+.details-icon:focus {
+  fill: #f3c653;
 }
 @media screen and (min-width: 1024px) {
   .restourant-content-wrap .restourant-btn-wrap {
