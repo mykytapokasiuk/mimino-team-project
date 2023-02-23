@@ -1,5 +1,5 @@
 .hero-title {
-    width: 283px;
+    width: 303px;
     height: 103px;
     margin-top: 70px;
     margin-left: auto;
@@ -21,21 +21,14 @@
     color: #FFFFFF;
     text-transform: uppercase;
 }
-.hero-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.hero-icon-main {
+    fill: #F3C653;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-link:hover,
-.hero-link:focus,
-.hero-link:active {
-    border: 1px solid #605B5B;
-    background-color: #605B5B;
+.hero-icon-main:hover,
+.hero-icon-main:focus,
+.hero-icon-main:active {
+    fill: #FFFFFF;
 }
 
 /* MOBILE VERSION */
@@ -53,7 +46,8 @@
                 rgba(0, 0, 0, 0.65)),
             url('../../img/hero-img/hero-mobile-homepage.webp');
         background-size: cover;
-        max-width: 414px;
+        background-position: center;
+        width: 100%;
         margin: 0 auto;
         padding: 64px 15px 20px 15px;
         text-align: center;
@@ -154,7 +148,7 @@
         display: none;
     }
     .hero-title {
-        width: 378px;
+        width: 405px;
         height: 138px;
         margin-top: 0;
         font-size: 128px;
@@ -171,7 +165,8 @@
                 rgba(0, 0, 0, 0.65)),
             url('../../img/hero-img/hero-tablet-homepage.webp');
         background-size: cover;
-        max-width: 1024px;
+        background-position: center;
+        width: 100%;
         margin: 0 auto;
         padding: 188px 47px 20px 47px;
         text-align: center;
@@ -269,7 +264,7 @@
         display: none;
     }
     .hero-title {
-        width: 378px;
+        width: 405px;
         height: 138px;
         margin-top: 0;
         font-size: 128px;
@@ -286,7 +281,8 @@
                 rgba(0, 0, 0, 0.65)),
             url('../../img/hero-img/hero-desctop-homepage.webp');
         background-size: cover;
-        max-width: 1280px;
+        background-position: center;
+        width: 100%;
         margin: 0 auto;
         padding: 188px 85px 65px 85px;
         text-align: center;

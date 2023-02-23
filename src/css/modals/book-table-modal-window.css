@@ -1,1 +1,205 @@
-
+.backdrop { 
+    position: fixed; 
+    top: 0; 
+    padding: 96px 18px; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(46, 47, 66, 0.4); 
+    opacity: 1; 
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    overflow-y: scroll; 
+} 
+ 
+.backdrop.is-hidden { 
+    pointer-events: none; 
+    opacity: 0; 
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+.modal-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  scale: 1;
+  background-color: #fffdee;
+  width: 414px;
+  padding: 60px 15px;
+}
+.modal-form-input {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: #808080;
+  padding-left: 12px;
+}
+.modal-close-button {
+  position: absolute;
+    display: flex;
+  background-color: transparent;
+  border: none;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+.modal-window-title {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.general-input {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #808080;
+  border: 1px solid #c79002;
+  border-radius: 2px;
+  outline: none;
+  height: 54px;
+}
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+}
+.inputs-containers {
+  width: 100%;
+  position: relative;
+}
+.text-inside-inputs {
+  position: absolute;
+  left: 12px;
+  bottom: 0%;
+  transform: translateY(calc(100% + 8px));
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+.selectos {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../img/modals/arrow.svg') no-repeat;
+  background-size: 24px;
+  background-position: calc(100% - 10px) center;
+  padding: 5px 25px 5px 12px;
+  border: 1px solid #c79002;
+  border-radius: 2px;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  width: 100%;
+}
+.date-input {
+  position: relative;
+}
+.input-with-date-arrow::after {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../img/modals/arrow.svg');
+}
+.modal-form-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #f3c653;
+  border-radius: 2px;
+  width: 384px;
+  height: 64px;
+  margin-top: 65px;
+  width: 100%;
+}
+.modal-form-button:hover,
+.modal-form-button:focus {
+  color: #000000;
+  background-color: #f3c653;
+}
+@media screen and (min-width: 320px) and (max-width: 413px) {
+  .modal-table {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal-table {
+    width: 712px;
+    padding: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 28px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal-form-input {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal-window-title {
+    font-size: 40px;
+    line-height: 1.15;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .inputs-containers {
+    width: 288px;
+  }
+  .form-inputs {
+    column-gap: 16px;
+    row-gap: 56px;
+  }
+}
