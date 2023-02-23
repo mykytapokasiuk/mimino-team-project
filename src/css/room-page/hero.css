@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.55) 8.07%,
       rgba(0, 0, 0, 0) 16.15%
     ),
-    url(../../img/room/room.jpg);
+    url('../../img/room/room.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -14,10 +14,8 @@
 .room-hero-btn {
   width: 40px;
   height: 40px;
-
   background: rgba(0, 0, 0, 0.65);
   border: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,11 +65,6 @@
   border-radius: 2px;
 }
 
-/* .numbers-adress > .adress {
-  width: fit-content;
-  height: fit-content;
-} */
-
 .location-icon-room {
     fill: #F3C653;
   }
@@ -84,7 +77,6 @@
   font-size: 12px;
   line-height: calc(15 / 12);
   letter-spacing: 0.01em;
-
   color: #e5e5e5;
 }
 
@@ -141,21 +133,16 @@ fill: #f3c653;
 .number-price-modal-button {
   width: 232px;
   height: 48px;
-
   background-color: rgba(0, 0, 0, 0.4);
-
   border: 2px solid #ffffff;
   border-radius: 25px;
-
   font-family: 'Montserrat';
   font-weight: 700;
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
-
   color: #f3c653;
-
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-price-modal-button:hover,
@@ -176,7 +163,7 @@ fill: #f3c653;
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../../img/room/room-2x.jpg);
+      url('../../img/room/room-2x.jpg');
   }
 }
 
@@ -188,7 +175,7 @@ fill: #f3c653;
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../../img/room/room-tablet.jpg);
+      url('../../img/room/room-tablet.jpg');
     background-size: cover;
   }
 
@@ -202,7 +189,7 @@ fill: #f3c653;
           rgba(0, 0, 0, 0.55) 8.07%,
           rgba(0, 0, 0, 0) 16.15%
         ),
-        url(../../img/room/room-tablet-2x.jpg);
+        url('../../img/room/room-tablet-2x.jpg');
     }
   }
 }
@@ -216,7 +203,7 @@ fill: #f3c653;
         rgba(0, 0, 0, 0.55) 8.07%,
         rgba(0, 0, 0, 0) 16.15%
       ),
-      url(../../img/room/room-desktop.jpg);
+      url('../../img/room/room-desktop.jpg');
   }
 
   .btn-left {
@@ -288,7 +275,7 @@ fill: #f3c653;
           rgba(0, 0, 0, 0.55) 8.07%,
           rgba(0, 0, 0, 0) 16.15%
         ),
-        url(../../img/room/room-desktop-2x.jpg);
+        url('../../img/room/room-desktop-2x.jpg');
     }
   }
 }
