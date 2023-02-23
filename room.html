@@ -38,8 +38,8 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     
-    <script type="module" crossorigin src="/mimino-team-project/assets/main-6164c9df.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/main-d219edf7.css">
+    <script type="module" crossorigin src="/mimino-team-project/assets/main-c30b1813.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/main-ae032dfc.css">
   </head>
   <body>
     <header>
@@ -178,7 +178,8 @@
             rel="noreferrer noopener"
             class="adress-text"
           >
-            Україна, м. Полтава,<br> вул. Маршала Бірюзова, 15
+            Україна, м. Полтава,<br />
+            вул. Маршала Бірюзова, 15
           </a>
         </address>
       </div>
@@ -208,7 +209,7 @@
       <button
         type="button"
         class="number-price-modal-button"
-        data-modal-open-room-price-modal-window
+        room-price-modal-open
       >
         Переглянути ціни
       </button>
@@ -296,7 +297,11 @@
         </p>
       </li>
     </ul>
-    <button type="button" class="number-booking-modal-button" data-modal-open-book-room-modal-window>
+    <button
+      type="button"
+      class="number-booking-modal-button"
+      book-room-modal-open
+    >
       ОФОРМИТИ БРОНЮВАННЯ
     </button>
     <div class="numbers-backlink-wrap">
@@ -414,9 +419,9 @@
 </footer>
 
     </footer>
-    <div class="backdrop is-hidden" book-room-modal-window>
+    <div class="backdrop is-hidden" book-room-modal>
   <div class="modal is-hidden">
-    <button class="modal-close-button" data-modal-close-one>
+    <button class="modal-close-button" book-room-modal-close>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -479,7 +484,7 @@
                 <span class="lable-text">Дата заїзду</span>
                 <div class="svg-input">
                   <input
-                    class="date-input"
+                    class="date-input-room"
                     type="text"
                     id="start-date-input"
                     placeholder="Сьогодні"
@@ -493,7 +498,7 @@
                 <span class="lable-text">Дата вїзду</span>
                 <div class="svg-input">
                   <input
-                    class="date-input"
+                    class="date-input-room"
                     type="text"
                     id="end-date-input"
                     placeholder="Сьогодні"
@@ -510,9 +515,9 @@
   </div>
 </div>
 
-    <div class="backdrop is-hidden" book-table-modal-window>
+    <div class="backdrop is-hidden" book-table-modal>
   <div class="modal-table">
-    <button type="button" class="modal-close-button" data-modal-close-two>
+    <button type="button" class="modal-close-button" book-table-modal-close>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -594,9 +599,9 @@
   </div>
 </div>
 
-    <div class="backdrop is-hidden" book-room-modal-window-price>
+    <div class="backdrop is-hidden" room-price-modal>
   <div class="modal-table">
-    <button type="button" class="modal-close-button" data-modal-close-three>
+    <button type="button" class="modal-close-button" room-price-modal-close>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"> 
         <path 
           stroke="#000" 
