@@ -190,6 +190,10 @@
   .luxe-room-slider {
   width: 194px;
   }
+
+  .hotel-luxe-room-image {
+  width: 244px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -229,6 +233,7 @@
   }
 
   .hotel-luxe-room-image {
+    width: 400px;
     position: absolute;
     top: -94px;
     right: -47px;
@@ -243,7 +248,7 @@
   .slider-items {
     height: 194px;
     width: 433px;
-    background-color: #00000018;
+    background-color:rgba(0, 0, 0, 0.05);
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 
