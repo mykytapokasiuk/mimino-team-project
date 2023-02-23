@@ -1,6 +1,8 @@
 (() => { 
   const refs = { 
-    openModalBtn1: document.querySelector('[data-modal-open-room]'), 
+      openModalBtn1: document.querySelector('[data-modal-open-room]'),
+      
+    openModalBtn9: document.querySelector('[data-modal-open-table-one]'),
     openModalBtn2: document.querySelector('[data-modal-open-table]'),
    
     closeModalBtn1: document.querySelector("[data-modal-close-one]"),
@@ -10,10 +12,11 @@
     modal2: document.querySelector('[book-table-modal-window]'),
     
   }; 
- 
   refs.openModalBtn1.addEventListener("click", toggleModal1); 
   refs.closeModalBtn1.addEventListener("click", toggleModal1); 
  
+
+  refs.openModalBtn9.addEventListener("click", toggleModal2);
   refs.openModalBtn2.addEventListener("click", toggleModal2);
   refs.closeModalBtn2.addEventListener("click", toggleModal2);
 
