@@ -29,7 +29,7 @@
   color: #b4b4b4;
 }
 .hotel-room-3-adult-header-name {
-  font-family: 'Film P3', 'sans-serif';
+  font-family: 'Film P3 bold', 'sans-serif';
   font-weight: 700;
   font-size: 40px;
   line-height: calc(43 / 40);
@@ -97,6 +97,15 @@
   gap: 32px;
   justify-content: right;
 }
+.hotel-3-bed-room-arrow-left, .hotel-3-bed-room-arrow-right {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hotel-3-bed-room-arrow-left:hover,
+.hotel-3-bed-room-arrow-left:focus, 
+.hotel-3-bed-room-arrow-right:hover,
+.hotel-3-bed-room-arrow-right:focus {
+  fill: #f3c653;
+}
 .btn {
   width: 236px;
   padding: 16px 0;
@@ -129,7 +138,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .button-prices:focus {
   background-color: #ffffff;
   border: 2px solid #f3c653;
-  color: #f3c653;;
+  color: #f3c653;
 }
 
 @media screen and (min-width: 414px) {
