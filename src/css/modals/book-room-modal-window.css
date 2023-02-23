@@ -53,7 +53,7 @@ body.modal-open {
 }
 
 .input,
-.date-input {
+.date-input-room {
     font-family: 'Times New Roman';
     font-weight: 700;
     font-size: 20px;
@@ -94,7 +94,7 @@ body.modal-open {
     width: 100%;
 }
 
-.date-input[type="date"]::-webkit-calendar-picker-indicator {
+.date-input-room[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
 }
 
@@ -234,7 +234,7 @@ option {
     }
 
     .input,
-    .date-input {
+    .date-input-room {
         height: 64px;
     }
 
