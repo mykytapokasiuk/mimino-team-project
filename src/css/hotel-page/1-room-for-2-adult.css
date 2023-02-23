@@ -72,6 +72,7 @@
 
 .hotel-double-room-link {
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .hotel-double-room-button {
@@ -128,7 +129,6 @@
 .slider-controls {
   width: 194px;
   margin-top: 20px;
-  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -182,6 +182,10 @@
   .hotel-double-room-title {
     font-size: 24px;
   }
+
+  .double-room-slider {
+  width: 194px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -234,7 +238,9 @@
 
   .slider-items {
     height: 194px;
-    width: 400px;
+    width: 433px;
+    background-color:rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 
   .double-room-slider {
@@ -242,7 +248,7 @@
   }
 
   .slider-controls {
-    width: 398px;
+    width: 433px;
     margin-top: 40px;
     text-align: right;
   }
@@ -259,7 +265,7 @@
 
   .hotel-double-room-image {
     top: -105px;
-    right: 145px;
+    right: 120px;
   }
 
   .slider-controls {
@@ -292,15 +298,19 @@
 
   .hotel-double-room-image {
     top: -105px;
-    right: 200px;
+    right: 175px;
   }
 
   .slider-items {
     height: 254px;
-    width: 548px;
+    width: 553px;
   }
 
   .slider-controls {
-    width: 510px;
+    width: 553px;
+  }
+
+  .double-room-slider {
+  width: 254px;
   }
 }

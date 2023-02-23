@@ -72,6 +72,7 @@
 
 .hotel-luxe-room-link {
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .hotel-luxe-room-button {
@@ -128,7 +129,6 @@
 .slider-controls {
   width: 194px;
   margin-top: 20px;
-  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -136,6 +136,10 @@
 .slider-next {
   border: none;
   background-color: transparent;
+}
+
+.slider-prev {
+  margin-right: 32px;
 }
 
 .slider-item {
@@ -182,6 +186,14 @@
   .hotel-luxe-room-title {
     font-size: 24px;
   }
+
+  .luxe-room-slider {
+  width: 194px;
+  }
+
+  .hotel-luxe-room-image {
+  width: 244px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -221,6 +233,7 @@
   }
 
   .hotel-luxe-room-image {
+    width: 400px;
     position: absolute;
     top: -94px;
     right: -47px;
@@ -234,15 +247,21 @@
 
   .slider-items {
     height: 194px;
-    width: 400px;
+    width: 433px;
+    background-color:rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 
+  .card-right {
+  margin-right: 40px;
+  }
+  
   .luxe-room-slider {
     display: inline-block;
   }
 
   .slider-controls {
-    width: 398px;
+    width: 433px;
     margin-top: 40px;
     text-align: right;
   }
@@ -259,7 +278,7 @@
 
   .hotel-luxe-room-image {
     top: -105px;
-    right: 145px;
+    right: 120px;
   }
 
   .slider-controls {
@@ -292,15 +311,18 @@
 
   .hotel-luxe-room-image {
     top: -105px;
-    right: 200px;
+    right: 175px;
   }
+.luxe-room-slider {
+  width: 254px;
+}
 
   .slider-items {
     height: 254px;
-    width: 548px;
+    width: 553px;
   }
 
   .slider-controls {
-    width: 510px;
+    width: 553px;
   }
 }
