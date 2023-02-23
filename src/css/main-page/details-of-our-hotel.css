@@ -287,9 +287,11 @@ text-decoration: none;
 .hotel-details__left-arrow:hover,
 .hotel-details__left-arrow:focus{
   fill:#F3C653;
+  cursor: pointer;
 }
 
 .hotel-details__right-arrow:hover,
 .hotel-details__right-arrow:focus{
   fill: #F3C653;
+  cursor: pointer;
 }
