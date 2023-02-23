@@ -1,4 +1,5 @@
 .numbers-hero {
+  padding-top: 484px;
   height: 740px;
   background-image: linear-gradient(
       180deg,
@@ -23,13 +24,13 @@
 
 .btn-left {
   position: absolute;
-  top: 350px;
+  top: -133px;
   left: 15px;
 }
 
 .btn-right {
   position: absolute;
-  top: 350px;
+  top: -133px;
   right: 15px;
 }
 
@@ -51,7 +52,7 @@
 
 .numbers-adress {
   position: absolute;
-  top: 64px;
+  top: -419px;
   right: 15px;
   display: flex;
   gap: 13px;
@@ -81,7 +82,6 @@
 }
 
 .numbers-h1 {
-  padding-top: 484px;
   margin: 0;
   font-family: 'Times New Roman';
   font-size: 28px;
@@ -196,6 +196,7 @@ fill: #f3c653;
 
 @media screen and (min-width: 1024px) {
   .numbers-hero {
+    padding-top: 468px;;
     height: 718px;
     background-image: linear-gradient(
         180deg,
@@ -207,18 +208,17 @@ fill: #f3c653;
   }
 
   .btn-left {
-    top: 340px;
+    top: -128px;
     left: 47px;
   }
 
   .btn-right {
-    top: 340px;
+    top: -128px;
     right: 47px;
   }
 
   .numbers-h1 {
     margin-bottom: 24px;
-    padding-top: 468px;
     font-size: 36px;
     line-height: calc(41 / 36);
     letter-spacing: 0.05em;
@@ -282,21 +282,18 @@ fill: #f3c653;
 
 @media screen and (min-width: 1280px) {
   .numbers-hero {
+    padding-top: 524px;
     height: 720px;
   }
 
   .btn-left {
-    top: 412px;
+    top: -112px;
     left: 85px;
   }
 
   .btn-right {
-    top: 412px;
+    top: -112px;
     right: 85px;
-  }
-
-  .numbers-h1 {
-    padding-top: 524px;
   }
 
   .numbers-adress {
