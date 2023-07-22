@@ -1,3 +1,8 @@
+# Thank you, guys!
+
+Many thanks to the team for their time and good work in these terrible times for
+our Ukraine.
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
